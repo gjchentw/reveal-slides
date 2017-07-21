@@ -5,6 +5,8 @@
 
 ---
 
+**官方文件**
+
 https://docs.docker.com/docker-hub/builds/
 
 ---
@@ -25,7 +27,7 @@ https://docs.docker.com/docker-hub/builds/
 ---
 
 ```
-$ docker build -t namespace/repo ./
+$ docker build -t namespace/repo:tag ./
 $ docker push
 ```
 
@@ -73,8 +75,9 @@ $ docker push
 
 ** 個人心得 **
 * security
-* barebone base image
+* base image
 * running containers
+* gjchen/php7 [![](https://images.microbadger.com/badges/image/gjchen/php7.svg)](https://microbadger.com/images/gjchen/php7 "Get your own image badge on microbadger.com")
 
 ---
 
